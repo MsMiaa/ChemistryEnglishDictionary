@@ -593,6 +593,7 @@ phonetic: "stɜːr",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/stir--_gb_1.mp3"
   },
   "sublimation": {
+Terjemahan: "sublimasi" 
 en: "The process in which a solid changes directly into a gas.",
 id: "Proses perubahan padat langsung menjadi gas.",
 example_en: "Dry ice undergoes sublimation.",
@@ -601,6 +602,7 @@ phonetic: "ˌsʌb.lɪˈmeɪ.ʃən",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/sublimation--_gb_1.mp3"
   },
   "syringe": {
+Terjemahan: "jarum suntik" 
 en: "A medical instrument used to inject or withdraw fluids.",
 id: "Instrumen medis yang digunakan untuk menyuntik atau menarik cairan.",
 example_en: "The nurse used a syringe to inject the medication.",
@@ -609,6 +611,7 @@ phonetic: "sɪˈrɪndʒ",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/syringe--_gb_1.mp3"
   },
   "test tube": {
+Terjemahan: "tabung reaksi"
 en: "A small glass tube used in laboratories for holding small amounts of substances.",
 id: "Tabung kaca kecil yang digunakan di laboratorium untuk menahan sedikit zat.",
 example_en: "The chemicals were mixed in the test tube.",
@@ -617,6 +620,7 @@ phonetic: "ˈtɛst tjuːb",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/test_tube--_gb_1.mp3"
   },
   "valence": {
+Terjemahan: "valensi"
 en: "The ability of an atom to bond with other atoms based on the number of electrons in its outer shell.",
 id: "Kemampuan atom untuk mengikat dengan atom lain berdasarkan jumlah elektron di kulit terluarnya.",
 example_en: "The valence of an element determines how it bonds with other elements.",
@@ -625,6 +629,7 @@ phonetic: "ˈveɪləns",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/valence--_gb_1.mp3"
   },
   "watch glass": {
+Terjemahan: "kaca arloji"
 en: "A concave piece of glass used in laboratories to hold small amounts of substances or as a cover for beakers.",
 id: "Lembaran kaca cekung yang digunakan di laboratorium untuk menahan sedikit zat atau sebagai penutup gelas kimia.",
 example_en: "The powder was placed on the watch glass.",
@@ -658,14 +663,18 @@ form.addEventListener("submit", function (e) {
   }
 
   resultBox.innerHTML = `
-  <h2>${term.charAt(0).toUpperCase() + term.slice(1)} <span>${result.phonetic}</span></h2>
-  <br>
-  <p><strong>EN:</strong> ${result.en}</p>
-  <p><em>Example:</em> ${result.example_en}</p>
+  <h2>
+    ${term.charAt(0).toUpperCase() + term.slice(1)} 
+    <span style="font-style: italic; color: blue;">${result.phonetic}</span>
+  </h2>
+  <p><strong>Terjemahan:</strong> ${result.translation}</p>
   <br>
   <p><strong>ID:</strong> ${result.id}</p>
-    <p><em>Contoh:</em> ${result.example_id}</p>
-  `;
+  <p><strong>EN:</strong> ${result.en}</p>
+  <br>
+  <p><em>Contoh (ID):</em> ${result.example_id}</p>
+  <p><em>Example (EN):</em> ${result.example_en}</p>
+`;
   const playButton = document.getElementById('play-sound');
 playButton.onclick = () => playAudio(result.audio);
 });
