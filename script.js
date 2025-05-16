@@ -337,13 +337,13 @@ const chemistryDictionary = {
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/fume_hood--_gb_1.mp3"
   },
   "funnel": {
-    "en": "A tube or pipe with a wide mouth and narrow stem, used to pour liquids into a container with a small opening.",
-    "id": "Tabung atau pipa dengan mulut lebar dan batang sempit, digunakan untuk menuangkan cairan ke dalam wadah dengan lubang kecil.",
-    "example_en": "The liquid was transferred using a funnel.",
-    "example_id": "Cairan dipindahkan menggunakan corong.",
-    "phonetic": "ˈfʌnəl",
-    "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/funnel--_gb_1.mp3"
-  },
+  "en": "A tube or pipe with a wide mouth and narrow stem, used to pour liquids into a container with a small opening.",
+  "id": "Tabung atau pipa dengan mulut lebar dan batang sempit, digunakan untuk menuangkan cairan ke dalam wadah dengan lubang kecil.",
+  "example_en": "The liquid was transferred using a funnel.",
+  "example_id": "Cairan dipindahkan menggunakan corong.",
+  "phonetic": "ˈfʌnəl",
+  "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/funnel--_gb_1.mp3"
+},
   "graduated_cylinder": {
     "en": "A laboratory instrument used to measure the volume of a liquid.",
     "id": "Instrumen laboratorium yang digunakan untuk mengukur volume cairan.",
