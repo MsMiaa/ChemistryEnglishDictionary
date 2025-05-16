@@ -8,20 +8,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-
+  <div class="logo-container">
+    <img src="Logo.png" width="75" height="75" class="standalone-logo">
+  </div>
+  
   <div class="container">
-    <img src="Logo.png" width="75" height="75">
     <h1>Chemistry Dictionary</h1>
     <form id="search-form">
-  <input type="text" id="search-input" placeholder="Search chemistry term..." />
-  <button type="submit" id="search-btn">Search</button>
-  <button type="button" id="play-sound" title="Play Sound">
-    <i class="fas fa-volume-up"></i>
-  </button>
-</form>
+      <input type="text" id="search-input" placeholder="Search chemistry term..." />
+      <button type="submit" id="search-btn">Search</button>
+      <button type="button" id="play-sound" title="Play Sound">
+        <i class="fas fa-volume-up"></i>
+      </button>
+    </form>
     <div id="result-box"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
