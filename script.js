@@ -749,12 +749,12 @@ form.addEventListener("submit", function (e) {
   <h2>${term.charAt(0).toUpperCase() + term.slice(1)} <span><em style="color: blue;">${result.phonetic}</em></span></h2>
   <p><strong>Word Translation:</strong> ${result.word_id}</p>
   <br>
-  <p><strong>EN:</strong> ${result.en}</p>
-  <p><em>Example:</em> ${result.example_en}</p>
-  <br>
   <p><strong>ID:</strong> ${result.id}</p>
-  <p><em>Contoh:</em> ${result.example_id}</p>
-  `;
+  <p><strong>EN:</strong> ${result.en}</p>
+  <br>
+  <p><em><strong>Contoh:</strong></em> ${result.example_id}</p>
+  <p><em><strong>Example:</strong></em> ${result.example_en}</p>
+    `;
   const playButton = document.getElementById('play-sound');
 playButton.onclick = () => playAudio(result.audio);
 });
