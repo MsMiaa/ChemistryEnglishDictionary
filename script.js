@@ -56,7 +56,7 @@ const chemistryDictionary = {
     "phonetic": "beɪs",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/base--_gb_1.mp3"
   },
-  "batch_process": {
+  "batch process": {
     "en": "A manufacturing technique in which a set quantity of materials is processed together.",
     "id": "Teknik produksi di mana sejumlah bahan diproses secara bersamaan.",
     "example_en": "A batch process is commonly used in pharmaceutical production.",
@@ -80,7 +80,7 @@ const chemistryDictionary = {
     "phonetic": "ˈbɔɪlə",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/boiler--_gb_1.mp3"
   },
-  "boiling_point": {
+  "boiling point": {
     "en": "The temperature at which a liquid turns into vapor.",
     "id": "Suhu di mana cairan berubah menjadi uap.",
     "example_en": "The boiling point of water is 100°C at sea level.",
@@ -104,7 +104,7 @@ const chemistryDictionary = {
     "phonetic": "bjʊˈrɛt",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/burette--_gb_1.mp3"
   },
-  "by_product": {
+  "by product": {
     "en": "A secondary product derived from a manufacturing process.",
     "id": "Produk sampingan yang dihasilkan dari proses manufaktur.",
     "example_en": "Glycerin is a by-product of biodiesel production.",
@@ -288,7 +288,7 @@ const chemistryDictionary = {
     "phonetic": "ɪkˈstrækʃən",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/extraction--_gb_1.mp3"
   },
-  "eye_wash_station": {
+  "eye wash station": {
     "en": "A station equipped with a flushing system to rinse the eyes in case of chemical exposure.",
     "id": "Stasiun yang dilengkapi dengan sistem pencucian untuk membilas mata jika terkena bahan kimia.",
     "example_en": "The lab had an eye wash station for emergencies.",
@@ -304,7 +304,7 @@ const chemistryDictionary = {
     "phonetic": "fɪlˈtreɪ.ʃən",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/filtration--_gb_1.mp3"
   },
-  "fire_blanket": {
+  "fire blanket": {
     "en": "A fire safety device made of a fire-resistant material used to smother small fires.",
     "id": "Alat keselamatan kebakaran yang terbuat dari bahan tahan api, digunakan untuk memadamkan api kecil.",
     "example_en": "The fire blanket was used to put out the fire on the stovetop.",
@@ -312,7 +312,7 @@ const chemistryDictionary = {
     "phonetic": "ˈfaɪər ˈblæŋkɪt",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/fire_blanket--_gb_1.mp3"
   },
-  "fire_extinguisher": {
+  "fire extinguisher": {
     "en": "A device used to put out fires, typically by spraying chemicals or water.",
     "id": "Alat yang digunakan untuk memadamkan api, biasanya dengan menyemprotkan bahan kimia atau air.",
     "example_en": "The fire extinguisher was used to control the blaze.",
@@ -328,7 +328,7 @@ const chemistryDictionary = {
     "phonetic": "flæsk",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/flask--_gb_1.mp3"
   },
-  "fume_hood": {
+  "fume hood": {
     "en": "A ventilated enclosure in laboratories used to control exposure to hazardous fumes.",
     "id": "Lemari ventilasi di laboratorium yang digunakan untuk mengendalikan paparan asap berbahaya.",
     "example_en": "The fume hood was turned on to handle the dangerous chemicals.",
@@ -344,7 +344,7 @@ const chemistryDictionary = {
   "phonetic": "ˈfʌnəl",
   "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/funnel--_gb_1.mp3"
 },
-  "graduated_cylinder": {
+  "graduated cylinder": {
     "en": "A laboratory instrument used to measure the volume of a liquid.",
     "id": "Instrumen laboratorium yang digunakan untuk mengukur volume cairan.",
     "example_en": "He measured the liquid in the graduated cylinder.",
@@ -384,7 +384,7 @@ const chemistryDictionary = {
     "phonetic": "aɪˈɒnɪk",
     "audio": "https://ssl.gstatic.com/dictionary/static/sounds/oxford/ionic--_gb_1.mp3"
   },
-  "lab_coat": {
+  "lab coat": {
     "en": "A coat worn in laboratories to protect the body from spills and contamination.",
     "id": "Jas yang dikenakan di laboratorium untuk melindungi tubuh dari tumpahan dan kontaminasi.",
     "example_en": "The researcher wore a lab coat while conducting the experiment.",
@@ -464,7 +464,7 @@ example_id: "Oksigen diperlukan untuk respirasi pada sebagian besar organisme.",
 phonetic: "ˈɒksɪdʒən",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/oxygen--_gb_1.mp3"
   },
-  "petri_dish": {
+  "petri dish": {
 en: "A shallow, flat dish made of glass or clear plastic used for growing cultures of microorganisms.",
 id: "Wadah datar dangkal terbuat dari kaca atau plastik transparan yang digunakan untuk menumbuhkan kultur mikroorganisme.",
 example_en: "The bacteria were cultured in a petri dish.",
@@ -536,7 +536,7 @@ example_id: "Anda harus membilas gelas kimia dengan air setelah digunakan.",
 phonetic: "rɪns",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/rinse--_gb_1.mp3"
   },
-  "safety_goggles": {
+  "safety goggles": {
 en: "Protective eyewear designed to shield the eyes from chemical splashes, debris, or intense light.",
 id: "Kacamata pelindung yang dirancang untuk melindungi mata dari percikan bahan kimia, puing-puing, atau cahaya yang intens.",
 example_en: "Always wear safety goggles when working with chemicals.",
@@ -608,7 +608,7 @@ example_id: "Perawat menggunakan jarum suntik untuk menyuntikkan obat.",
 phonetic: "sɪˈrɪndʒ",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/syringe--_gb_1.mp3"
   },
-  "test_tube": {
+  "test tube": {
 en: "A small glass tube used in laboratories for holding small amounts of substances.",
 id: "Tabung kaca kecil yang digunakan di laboratorium untuk menahan sedikit zat.",
 example_en: "The chemicals were mixed in the test tube.",
@@ -624,7 +624,7 @@ example_id: "Valensi suatu unsur menentukan bagaimana ia mengikat dengan unsur l
 phonetic: "ˈveɪləns",
 audio: "https://ssl.gstatic.com/dictionary/static/sounds/oxford/valence--_gb_1.mp3"
   },
-  "watch_glass": {
+  "watch glass": {
 en: "A concave piece of glass used in laboratories to hold small amounts of substances or as a cover for beakers.",
 id: "Lembaran kaca cekung yang digunakan di laboratorium untuk menahan sedikit zat atau sebagai penutup gelas kimia.",
 example_en: "The powder was placed on the watch glass.",
